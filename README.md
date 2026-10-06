@@ -16,6 +16,33 @@ This repo maintains packages for AUR (Arch Linux User Repository).
 $AUR_HELPER -S torresmo
 ```
 
+## Publishing
+
+Every package lives in its own folder and is pushed to its AUR repository with
+`git subtree`. Run these steps on an Arch machine, inside the package folder.
+
+First, update `PKGBUILD`'s `pkgver` and `pkgrel` to the correct version. Then:
+
+```sh
+updpkgsums                              # from pacman-contrib
+```
+
+Packaging-only change (same upstream version): bump `pkgrel` instead, and skip
+`updpkgsums`.
+
+Then, for both cases:
+
+```sh
+makepkg -sfi                            # build, run the tests, install
+namcap PKGBUILD *.pkg.tar.zst           # lint, should print nothing
+makepkg --printsrcinfo > .SRCINFO
+git add PKGBUILD .SRCINFO
+git commit
+cd ..
+git push
+git subtree push --prefix <package> aur-<package> master
+```
+
 ## License
 
 This project code is in the public domain. See the [LICENSE file][3].
