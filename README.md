@@ -12,7 +12,9 @@ This repo maintains packages for AUR (Arch Linux User Repository).
 
 #### Installation
 
-idk
+```sh
+$AUR_HELPER -S torresmo
+```
 
 ## License
 
