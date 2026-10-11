@@ -16,6 +16,16 @@ This repo maintains packages for AUR (Arch Linux User Repository).
 $AUR_HELPER -S torresmo
 ```
 
+### TTFE
+
+> [homepage][4] | [repository][5]
+
+#### Installation
+
+```sh
+$AUR_HELPER -S ttfe
+```
+
 ## Publishing
 
 Every package lives in its own folder and is pushed to its AUR repository with
@@ -56,3 +66,5 @@ additional terms or conditions.
 [1]: https://sr.ht/~paemuri/torresmo
 [2]: https://git.sr.ht/~paemuri/torresmo
 [3]: ./LICENSE
+[4]: https://sr.ht/~paemuri/ttfe
+[5]: https://git.sr.ht/~paemuri/ttfe
