@@ -1,5 +1,7 @@
 # AUR pkgs
 
+[![License][badge-1-img]][badge-1-link]
+
 ## About
 
 This repo maintains packages for AUR (Arch Linux User Repository). 
@@ -70,6 +72,9 @@ additional terms or conditions.
 
 [1]: https://sr.ht/~paemuri/torresmo
 [2]: https://sr.ht/~paemuri/ttfe
+
+[badge-1-img]: https://img.shields.io/badge/license-Unlicense-green?style=flat-square
+[badge-1-link]: ./LICENSE
 
 [source-srht]: https://git.sr.ht/~paemuri/aur-pkgs
 [source-github]: https://github.com/paemuri/aur-pkgs
