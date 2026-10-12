@@ -8,7 +8,7 @@ This repo maintains packages for AUR (Arch Linux User Repository).
 
 ### Torresmo
 
-> [homepage][1] | [repository][2]
+> [homepage][1]
 
 #### Installation
 
@@ -18,7 +18,7 @@ $AUR_HELPER -S torresmo
 
 ### TTFE
 
-> [homepage][4] | [repository][5]
+> [homepage][2]
 
 #### Installation
 
@@ -53,18 +53,24 @@ git push
 git subtree push --prefix <package> aur-<package> master
 ```
 
-## License
+## Source code
 
-This project code is in the public domain. See the [LICENSE file][3].
+The main repository is on [SourceHut][source-srht]. A mirror exists on
+[GitHub][source-github] for convenience, but it might occasionally be
+outdated.
 
-### Contribution
+### License and contribution
+
+This project's code is in the public domain. See the
+[LICENSE file][source-license].
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you shall be in the public domain, without any
 additional terms or conditions.
 
 [1]: https://sr.ht/~paemuri/torresmo
-[2]: https://git.sr.ht/~paemuri/torresmo
-[3]: ./LICENSE
-[4]: https://sr.ht/~paemuri/ttfe
-[5]: https://git.sr.ht/~paemuri/ttfe
+[2]: https://sr.ht/~paemuri/ttfe
+
+[source-srht]: https://git.sr.ht/~paemuri/aur-pkgs
+[source-github]: https://github.com/paemuri/aur-pkgs
+[source-license]: ./LICENSE
