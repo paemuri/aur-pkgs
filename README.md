@@ -45,14 +45,14 @@ Packaging-only change (same upstream version): bump `pkgrel` instead, and skip
 Then, for both cases:
 
 ```sh
-makepkg -sfi                            # build, run the tests, install
-namcap PKGBUILD *.pkg.tar.zst           # lint, should print nothing
+makepkg -sfi                                           # build, run the tests, install
+namcap PKGBUILD $pkg-$pkgver-$pkgrel-$arch.pkg.tar.zst # lint, should print nothing
 makepkg --printsrcinfo > .SRCINFO
 git add PKGBUILD .SRCINFO
 git commit
 cd ..
 git push
-git subtree push --prefix <package> aur-<package> master
+git subtree push --prefix $pkg aur-$pkg master
 ```
 
 ## Source code
