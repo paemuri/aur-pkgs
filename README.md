@@ -28,6 +28,16 @@ $AUR_HELPER -S torresmo
 $AUR_HELPER -S ttfe
 ```
 
+### SuperHTML
+
+> [homepage][3]
+
+#### Installation
+
+```sh
+$AUR_HELPER -S superhtml-git
+```
+
 ## Publishing
 
 Every package lives in its own folder and is pushed to its AUR repository with
@@ -72,6 +82,7 @@ additional terms or conditions.
 
 [1]: https://sr.ht/~paemuri/torresmo
 [2]: https://sr.ht/~paemuri/ttfe
+[3]: https://github.com/kristoff-it/superhtml
 
 [badge-1-img]: https://img.shields.io/badge/license-Unlicense-green?style=flat-square
 [badge-1-link]: ./LICENSE
