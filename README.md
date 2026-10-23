@@ -62,6 +62,7 @@ git add PKGBUILD .SRCINFO
 git commit
 cd ..
 git push
+git remote add aur-$pkg ssh://aur@aur.archlinux.org/$pkg.git # optional
 git subtree push --prefix $pkg aur-$pkg master
 ```
 
