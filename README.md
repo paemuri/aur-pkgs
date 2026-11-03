@@ -72,23 +72,30 @@ The main repository is on [SourceHut][source-srht]. Mirrors exist on
 [Codeberg][source-codeberg] and [GitHub][source-github] for convenience, but
 they might occasionally be outdated.
 
-### License and contribution
+## License and contribution
 
-This project's code is in the public domain. See the
-[LICENSE file][source-license].
+All original code is licensed under the
+[GNU Affero General Public License 3.0 or later][license-code].
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you shall be in the public domain, without any
-additional terms or conditions.
+for inclusion in the work by you shall be licensed under the same license as
+the material to which it is contributed, without any additional terms or
+conditions.
+
+### Third-party and exceptions
+
+The packages in this repository are metadata and build scripts. The software
+they package remains under its own license.
 
 [1]: https://sr.ht/~paemuri/torresmo
 [2]: https://sr.ht/~paemuri/ttfe
 [3]: https://github.com/kristoff-it/superhtml
 
-[badge-1-img]: https://img.shields.io/badge/license-Unlicense-green?style=flat-square
+[badge-1-img]: https://img.shields.io/badge/license-AGPL--3.0--or--later-green?style=flat-square
 [badge-1-link]: ./LICENSE
 
 [source-srht]: https://git.sr.ht/~paemuri/aur-pkgs
 [source-codeberg]: https://codeberg.org/paemuri/aur-pkgs
 [source-github]: https://github.com/paemuri/aur-pkgs
-[source-license]: ./LICENSE
+
+[license-code]: ./LICENSES/AGPL-3.0-or-later.txt
